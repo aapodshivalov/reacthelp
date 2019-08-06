@@ -1,3 +1,4 @@
+<pre>
 https://www.youtube.com/watch?v=J9Mock0WBQ4
 https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
 // next.js pages/post.js
@@ -8,7 +9,7 @@ const Post = (props) => {
 };
 
 export default Post;
-
+</pre>
 
 
 
