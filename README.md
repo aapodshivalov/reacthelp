@@ -1,4 +1,4 @@
-<pre>{"
+<pre>
 // https://www.youtube.com/watch?v=J9Mock0WBQ4
 // https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
 // next.js pages/post.js
@@ -9,8 +9,16 @@ const Post = (props) => {
 };
 
 export default Post;
-"}</pre>
-
+</pre>
+  
+// next.js server/index.js
+<pre>
+  server.get("/posts/:slug", (req, res) => {
+    let actualPage = "/post";
+    let queryParams = { titele: req.params.slug };
+    return app.render(req, res, actualPage, queryParams);
+  });
+</pre>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
