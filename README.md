@@ -3,7 +3,7 @@
 // https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
 // next.js pages/post.js
 const Post = (props) => {
-  '<div>'
+  <pre><div></pre>
     {props.url.query.title}
   '</div>'
 };
