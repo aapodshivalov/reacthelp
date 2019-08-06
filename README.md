@@ -1,15 +1,15 @@
-<pre>
+<pre>{"
 // https://www.youtube.com/watch?v=J9Mock0WBQ4
 // https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
 // next.js pages/post.js
 const Post = (props) => {
-  <pre><div></pre>
+  <div>
     {props.url.query.title}
-  '</div>'
+  </div>
 };
 
 export default Post;
-</pre>
+"}</pre>
 
 
 
