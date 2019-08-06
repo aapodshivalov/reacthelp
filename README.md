@@ -1,5 +1,5 @@
 <pre>
-https://www.youtube.com/watch?v=J9Mock0WBQ4
+'https://www.youtube.com/watch?v=J9Mock0WBQ4
 https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
 // next.js pages/post.js
 const Post = (props) => {
@@ -8,7 +8,7 @@ const Post = (props) => {
   </div>
 };
 
-export default Post;
+export default Post;'
 </pre>
 
 
