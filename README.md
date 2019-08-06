@@ -1,3 +1,17 @@
+https://www.youtube.com/watch?v=J9Mock0WBQ4
+https://github.com/spkellydev/nextjs-scss-ssr-react-tutorial
+// next.js pages/post.js
+const Post = (props) => {
+  <div>
+    {props.url.query.title}
+  </div>
+};
+
+export default Post;
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
